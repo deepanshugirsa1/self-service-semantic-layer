@@ -1,0 +1,97 @@
+metrics:
+  - name: mrr
+    description: Monthly recurring revenue
+    owner: analytics
+  - name: arr
+    description: Annual recurring revenue
+    owner: analytics
+  - name: active_users
+    description: Daily active users
+    owner: analytics
+  - name: new_users
+    description: New user signups
+    owner: analytics
+  - name: churn_rate
+    description: Subscription churn rate
+    owner: analytics
+  - name: retention_d7
+    description: Day-7 retention
+    owner: analytics
+  - name: retention_d30
+    description: Day-30 retention
+    owner: analytics
+  - name: arpu
+    description: Average revenue per user
+    owner: analytics
+  - name: ltv
+    description: Customer lifetime value
+    owner: analytics
+  - name: cac
+    description: Customer acquisition cost
+    owner: analytics
+  - name: conversion_rate
+    description: Signup to paid conversion
+    owner: analytics
+  - name: support_tickets
+    description: Open support tickets
+    owner: analytics
+  - name: nps_score
+    description: Net promoter score
+    owner: analytics
+  - name: gross_margin
+    description: Gross margin percent
+    owner: analytics
+  - name: refund_rate
+    description: Payment refund rate
+    owner: analytics
+  - name: failed_payments
+    description: Failed payment count
+    owner: analytics
+  - name: avg_session_duration
+    description: Average session duration minutes
+    owner: analytics
+  - name: feature_adoption
+    description: Feature adoption rate
+    owner: analytics
+  - name: upgrade_rate
+    description: Plan upgrade rate
+    owner: analytics
+  - name: downgrade_rate
+    description: Plan downgrade rate
+    owner: analytics
+  - name: trial_conversion
+    description: Trial to paid conversion
+    owner: analytics
+  - name: email_open_rate
+    description: Email campaign open rate
+    owner: analytics
+  - name: push_click_rate
+    description: Push notification CTR
+    owner: analytics
+  - name: cart_abandonment
+    description: Cart abandonment rate
+    owner: analytics
+  - name: order_count
+    description: Total orders
+    owner: analytics
+  - name: avg_order_value
+    description: Average order value
+    owner: analytics
+  - name: inventory_turnover
+    description: Inventory turnover
+    owner: analytics
+  - name: shipping_sla
+    description: On-time shipping rate
+    owner: analytics
+  - name: return_rate
+    description: Product return rate
+    owner: analytics
+  - name: csat_score
+    description: Customer satisfaction score
+    owner: analytics
+  - name: pipeline_value
+    description: Sales pipeline value
+    owner: analytics
+  - name: win_rate
+    description: Sales win rate
+    owner: analytics

@@ -1,0 +1,7 @@
+semantic_layer:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: data/semantic.duckdb
+      threads: 1

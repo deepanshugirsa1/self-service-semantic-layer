@@ -1,0 +1,5 @@
+duckdb>=1.0.0
+pandas>=2.0.0
+dbt-core>=1.7.0
+dbt-duckdb>=1.7.0
+pyyaml>=6.0

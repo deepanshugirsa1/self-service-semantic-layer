@@ -1,0 +1,16 @@
+dataset: subscriptions
+owner: product-analytics
+freshness_sla_hours: 6
+schema:
+  - name: user_id
+    type: string
+    required: true
+  - name: plan
+    type: string
+    required: true
+  - name: mrr
+    type: float
+    required: true
+quality_rules:
+  - mrr >= 0
+  - user_id is not null

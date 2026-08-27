@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.db
+*.duckdb
+target/
+dbt_packages/
+logs/
+.DS_Store
+.idea/
+.vscode/
+*.parquet
+data/raw/*.csv
+!data/raw/.gitkeep

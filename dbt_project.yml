@@ -1,0 +1,4 @@
+name: self_service_semantic_layer
+version: 1.0.0
+profile: semantic_layer
+model-paths: ["models"]

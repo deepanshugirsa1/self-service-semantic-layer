@@ -1,0 +1,7 @@
+version: 2
+models:
+  - name: mart_kpi_daily
+    description: Unified KPI mart for self-service reporting
+    columns:
+      - name: plan
+        tests: [not_null]
