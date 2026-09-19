@@ -1,0 +1,45 @@
+{
+  "total_checks": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0,
+  "checks": [
+    {
+      "check": "column_present:user_id",
+      "passed": true
+    },
+    {
+      "check": "not_null:user_id",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "check": "column_present:plan",
+      "passed": true
+    },
+    {
+      "check": "not_null:plan",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "check": "column_present:mrr",
+      "passed": true
+    },
+    {
+      "check": "not_null:mrr",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "check": "rule:mrr >= 0",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "check": "rule:user_id is not null",
+      "passed": true,
+      "violations": 0
+    }
+  ]
+}

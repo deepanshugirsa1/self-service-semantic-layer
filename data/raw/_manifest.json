@@ -1,0 +1,6 @@
+{
+  "dataset": "subscriptions",
+  "rows": 300,
+  "loaded_at": "2026-09-19T00:01:00.715797+00:00",
+  "source": "generate_data.py"
+}

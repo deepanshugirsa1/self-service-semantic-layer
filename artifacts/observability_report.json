@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-09-19T00:01:00.921156+00:00",
+  "dataset": {
+    "name": "subscriptions",
+    "rows": 300,
+    "columns": [
+      "user_id",
+      "plan",
+      "mrr",
+      "region",
+      "signup_date",
+      "is_active"
+    ]
+  },
+  "freshness": {
+    "loaded_at": "2026-09-19T00:01:00.715797+00:00",
+    "age_hours": 0.0,
+    "sla_hours": 6.0,
+    "status": "PASS"
+  },
+  "quality": {
+    "pass_rate": 1.0,
+    "passed": 8,
+    "failed": 0,
+    "checks": [
+      {
+        "check": "column_present:user_id",
+        "passed": true
+      },
+      {
+        "check": "not_null:user_id",
+        "passed": true,
+        "violations": 0
+      },
+      {
+        "check": "column_present:plan",
+        "passed": true
+      },
+      {
+        "check": "not_null:plan",
+        "passed": true,
+        "violations": 0
+      },
+      {
+        "check": "column_present:mrr",
+        "passed": true
+      },
+      {
+        "check": "not_null:mrr",
+        "passed": true,
+        "violations": 0
+      },
+      {
+        "check": "rule:mrr >= 0",
+        "passed": true,
+        "violations": 0
+      },
+      {
+        "check": "rule:user_id is not null",
+        "passed": true,
+        "violations": 0
+      }
+    ]
+  },
+  "semantic_layer": {
+    "metrics_registered": 32
+  },
+  "overall_status": "HEALTHY"
+}
